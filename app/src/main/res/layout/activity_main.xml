@@ -51,7 +51,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editText4"
+                    android:id="@+id/ctEmail"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
@@ -59,7 +59,7 @@
                     android:layout_weight="1"
                     android:ems="10"
                     android:hint="Digite seu email"
-                    android:inputType="textPassword" />
+                    android:inputType="textEmailAddress" />
             </LinearLayout>
 
             <LinearLayout
@@ -70,7 +70,7 @@
                 android:orientation="horizontal">
 
                 <EditText
-                    android:id="@+id/editText5"
+                    android:id="@+id/ctSenha"
                     android:layout_width="195dp"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
