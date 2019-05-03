@@ -5,25 +5,17 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/Nelore"
             android:icon="@mipmap/ic_ox1_icon"
-            android:title="Angus" />
+            android:title="Nelore" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/Guzera"
             android:icon="@mipmap/ic_ox2_icon"
-            android:title="Gado Jersey" />
+            android:title="Guzera" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/Sindi"
             android:icon="@mipmap/ic_ox1_icon"
-            android:title="Shorthorn" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@mipmap/ic_ox2_icon"
-            android:title="Charolês" />
-        <item
-            android:id="@+id/nav_doc"
-            android:icon="@mipmap/ic_ox1_icon"
-            android:title="Brangos" />
+            android:title="Sindi" />
     </group>
 
     <item android:title="Informações">
