@@ -9,4 +9,15 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Configurações</string>
+    <string-array name="spinner_opcoes">
+        <item>Resumo</item>
+        <item>Ambiente</item>
+        <item>Instalações</item>
+        <item>Peso</item>
+    </string-array>
+    <string-array name="spinner_opcoes2">
+        <item>Resumo</item>
+        <item>Ambiente</item>
+        <item>Peso</item>
+    </string-array>
 </resources>
