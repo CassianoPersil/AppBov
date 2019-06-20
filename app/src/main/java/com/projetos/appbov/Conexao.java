@@ -1,4 +1,4 @@
-package com.projetos.appbov.dummy;
+package com.projetos.appbov;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
