@@ -29,8 +29,8 @@
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="173dp"
-                    android:layout_height="155dp"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginStart="96dp"
                     android:layout_marginTop="15dp"
@@ -41,6 +41,22 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     app:srcCompat="@mipmap/ic_loging_icon" />
+
+                <TextView
+                    android:id="@+id/ctUsuario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Usuário"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ctEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="email@email"
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -50,106 +66,28 @@
                 android:gravity="center"
                 android:orientation="horizontal">
 
-                <EditText
-                    android:id="@+id/ctEmail"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="Digite seu email"
-                    android:inputType="textEmailAddress" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/ctConfSenha"
-                    android:layout_width="195dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="Digite sua senha"
-                    android:inputType="textPassword" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
                 <Button
-                    android:id="@+id/btCadastrar"
-                    android:layout_width="match_parent"
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
-                    android:layout_marginTop="20dp"
                     android:layout_marginRight="20dp"
+                    android:layout_weight="1"
                     android:background="@color/colorPrimary"
-                    android:gravity="center"
-                    android:text="Login"
-                    android:textColor="@android:color/background_light"
-                    android:textSize="14sp" />
+                    android:text="Iserir Raça"
+                    android:textColor="#FFFFFF" />
             </LinearLayout>
 
-            <LinearLayout
+            <android.support.v7.widget.GridLayout
+                android:id="@+id/glLista"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="10dp"
-                android:orientation="vertical">
+                android:layout_height="295dp">
 
-                <TextView
-                    android:id="@+id/textView3"
+                <ListView
+                    android:id="@+id/lvListrar"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginRight="20dp"
-                    android:gravity="center"
-                    android:text="Esqueceu sua senha?"
-                    android:textColor="@android:color/background_dark" />
-
-                <TextView
-                    android:id="@+id/twcadastro"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center"
-                    android:text="Cadastre-se"
-                    android:textColor="@android:color/holo_blue_dark"
-                    android:textColorLink="@android:color/background_light" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:foregroundGravity="center"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <CheckBox
-                    android:id="@+id/checkBox"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_weight="1"
-                    android:text="Esqueceu sua senha?" />
-
-                <CheckBox
-                    android:id="@+id/checkBox2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginRight="20dp"
-                    android:layout_weight="1"
-                    android:text="Lembrar-me" />
-            </LinearLayout>
+                    android:layout_height="match_parent" />
+            </android.support.v7.widget.GridLayout>
 
         </LinearLayout>
 
